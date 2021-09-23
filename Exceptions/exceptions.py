@@ -25,14 +25,14 @@ except ValueError: print(f"Invalid type")
 
 
 c = 10 # c = 10
-
+print(c)
 c += 11  # c = 21
-
+print(c)
 c -= 11 # c = 10
-
+print(c)
 c *= 3 # c = 30
-
+print(c)
 c /= 15 # c = 2.0
-
+print(c)
 c %= 2 # c = 0
 print(c)
