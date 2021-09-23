@@ -94,3 +94,4 @@ school = input("What is your school? >> ")
 
 # call function printPersonInfo
 printPersonInfo(fname, lname, age, phone, pin, school)
+
