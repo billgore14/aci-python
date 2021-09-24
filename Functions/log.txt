@@ -1,0 +1,5 @@
+
+User carlos tried to log in on 2021-09-24 10:27:47.003943 - Result: Success
+User car tried to log in on 2021-09-24 10:28:20.962036 - Result: Fail
+User carlos tried to log in on 2021-09-24 10:33:32.468895 - Result: Success
+User dunieski tried to log in on 2021-09-24 10:34:29.580323 - Result: Fail
