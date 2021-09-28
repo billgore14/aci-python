@@ -20,7 +20,7 @@ if choice == 1:
 elif choice == 2:
     ops.insertOperation()
 elif choice == 3:
-    ops.deleteOperation()      
+    ops.deleteOperation()
 
 print()
 
