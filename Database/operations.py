@@ -3,15 +3,20 @@ import sqlOps as sql
 from os import system
 from user import User
 
+
 system('cls')
 
 users = []
 
 # read function
+
+
 def readUserOperation():
     sql.readUserInfo()
 
 # insert function
+
+
 def insertOperation():
     numberOfEntries = int(input("Enter number of records >> "))
     for entry in range(numberOfEntries):
@@ -32,7 +37,16 @@ def insertOperation():
     readUserOperation()
 
 # delete function
+
+
 def deleteOperation():
+    system('cls')
     sql.readUserInfo()
-    userId = int(input("Which id do you want choose so that we can delete the user? >> "))
-    sql.deleteUser(userId)
+    userId = int(
+        input("Which id do you want choose so that we can delete the user? >> "))
+    print("That's ok")
+    response = input("Are you sure you want to delete this users? [Y/N] >> ")
+    if response.upper() == 'Y':
+        sql.deleteUser(userId)
+    else:
+        return "No"

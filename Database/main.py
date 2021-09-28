@@ -5,7 +5,8 @@ from colorama import Fore, Style
 
 system('cls')
 
-operationList = ["Read", "Insert", "Update", "Delete"]
+
+operationList = ["Read", "Insert", "Delete", "Update"]
 counter = 1
 
 print("These are the operations that you can perform in our database: ")
@@ -19,7 +20,9 @@ if choice == 1:
 elif choice == 2:
     ops.insertOperation()
 elif choice == 3:
-    ops.deleteOperation()
-    
+    ops.deleteOperation()      
 
 print()
+
+
+

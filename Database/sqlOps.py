@@ -22,8 +22,11 @@ def readUserInfo():
         conn.close()
     except (Exception, mysql.connector.Error) as error:
         print('Error while fetching data from my MySQL', error)
-    
+
+
 # inserts user data into table
+
+
 def insertUserInfo(fname, lname, age, phone):
     conn = c.returnConnection()
     try:
@@ -36,7 +39,9 @@ def insertUserInfo(fname, lname, age, phone):
     except (Exception, mysql.connector.Error) as error:
         print('Error while fetching data from my MySQL', error)
 
-# deletes user from table       
+# deletes user from table
+
+
 def deleteUser(id):
     conn = c.returnConnection()
     try:
