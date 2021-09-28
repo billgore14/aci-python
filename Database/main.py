@@ -18,7 +18,8 @@ if choice == 1:
     ops.readUserOperation()
 elif choice == 2:
     ops.insertOperation()
-
+elif choice == 3:
+    ops.deleteOperation()
     
 
 print()

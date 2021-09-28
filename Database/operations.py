@@ -30,3 +30,9 @@ def insertOperation():
         sql.insertUserInfo(user.get_firstname(
         ), user.get_lastname(), user.get_age(), user.get_phone())
     readUserOperation()
+
+# delete function
+def deleteOperation():
+    sql.readUserInfo()
+    userId = int(input("Which id do you want choose so that we can delete the user? >> "))
+    sql.deleteUser(userId)
